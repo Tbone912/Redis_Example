@@ -13,7 +13,7 @@
 	<artifactId>redis_example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>redis_example</name>
-	<description>H2 project for Spring Boot</description>
+	<description>Redis project for Spring Boot</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -38,19 +38,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-test</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
 			<groupId>org.springframework.data</groupId>
 			<artifactId>spring-data-redis</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>redis.clients</groupId>
-			<artifactId>jedis</artifactId>
-			<version>3.3.0</version>
-			<type>jar</type>
 		</dependency>
 	</dependencies>
 
